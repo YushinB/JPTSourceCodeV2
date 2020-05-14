@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="JPTSource Main">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Unit Test">
+      <UniqueIdentifier>{06db0a7a-a420-413a-87d6-a1d50baa2aa4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Doc">
+      <UniqueIdentifier>{92ad6a82-2a67-47eb-886f-8f5d75444951}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\JPTSourceCodeV2.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\JPTSourceCodeV2.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\Doc\OOGL-master\README.md">
+      <Filter>Doc</Filter>
+    </None>
+    <None Include="Doc_GL.md">
+      <Filter>Doc</Filter>
+    </None>
+    <None Include="Doc_UsefulStuff.md">
+      <Filter>Doc</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="JPTSourceCodeV2.h">
+      <Filter>JPTSource Main</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>JPTSource Main</Filter>
+    </ClInclude>
+    <ClInclude Include="JPTSourceCodeV2Dlg.h">
+      <Filter>JPTSource Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>JPTSource Main</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>JPTSource Main</Filter>
+    </ClInclude>
+    <ClInclude Include="TestMain.h">
+      <Filter>Unit Test</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIControlTestDlg.h">
+      <Filter>JPTSource Main</Filter>
+    </ClInclude>
+    <ClInclude Include="JPTSourceCodeV2Doc.h">
+      <Filter>JPTSource Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Subject.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Observer.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="TemplatePractice.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="JPTViewBase.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIRenderSetting.h">
+      <Filter>JPTSource Main</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartControlDlg.h">
+      <Filter>JPTSource Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Preference.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugTool.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="JPTVulkanRender.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="JPTPythonIDE.h">
+      <Filter>JPTSource Main</Filter>
+    </ClInclude>
+    <ClInclude Include="assimphelper.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="JPTSourceCodeV2.cpp">
+      <Filter>JPTSource Main</Filter>
+    </ClCompile>
+    <ClCompile Include="JPTSourceCodeV2Dlg.cpp">
+      <Filter>JPTSource Main</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>JPTSource Main</Filter>
+    </ClCompile>
+    <ClCompile Include="TestMain.cpp">
+      <Filter>Unit Test</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIControlTestDlg.cpp">
+      <Filter>JPTSource Main</Filter>
+    </ClCompile>
+    <ClCompile Include="JPTSourceCodeV2Doc.cpp">
+      <Filter>JPTSource Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Subject.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Observer.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="TemplatePractice.cpp">
+      <Filter>JPTSource Main</Filter>
+    </ClCompile>
+    <ClCompile Include="JPTViewBase.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIRenderSetting.cpp">
+      <Filter>JPTSource Main</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartControlDlg.cpp">
+      <Filter>JPTSource Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Preference.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugTool.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="JPTVulkanRender.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="JPTPythonIDE.cpp">
+      <Filter>JPTSource Main</Filter>
+    </ClCompile>
+    <ClCompile Include="assimphelper.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="JPTSourceCodeV2.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Doc.md">
+      <Filter>Doc</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

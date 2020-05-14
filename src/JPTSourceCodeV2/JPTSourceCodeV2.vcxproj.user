@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LocalDebuggerEnvironment>path=../../bin/$(Configuration)/$(PlatformName)/Spatial\acis2017.1.0.0HF\NT_VC14_64_DLLD\code\bin;../../bin/$(Configuration)/$(PlatformName)/Spatial\iop2017.1.0.0hf\NT_VC14_64_DLLD\code\bin;../../bin/$(Configuration)/$(PlatformName)/Elysium/DEK/env/IntNt/lib.x64;../../bin/$(Configuration)/$(PlatformName)/Import;%path%
+P_SCHEMA=../../bin/$(Configuration)/$(PlatformName)/parasolid/schema
+JPT_SPATIAL_OUTPUT_IMPORT_LOG_FILE=TRUE
+ENFMODULEDIR=../../bin/$(Configuration)/$(PlatformName)/Elysium/TransModule
+JUPITER_POST_LOC_EXE=C:/Wcode/JPTR-Post/bin/$(Configuration)/$(PlatformName)/PCAD_main.exe
+PYTHONPATH=../../bin/$(Configuration)/$(PlatformName)/
+PYTHONHOME=../../bin/$(Configuration)/$(PlatformName)/
+$(LocalDebuggerEnvironment)</LocalDebuggerEnvironment>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+</Project>
