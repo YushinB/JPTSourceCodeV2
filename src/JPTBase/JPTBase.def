@@ -1,0 +1,7 @@
+; JPTBase.def : Declares the module parameters for the DLL.
+
+LIBRARY      "JPTBase" 
+
+EXPORTS
+    ; Explicit exports can go here
+	

@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Render">
+      <UniqueIdentifier>{19755d8c-de5b-4b77-ba5b-aea2ef74dfc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render\Shader">
+      <UniqueIdentifier>{116839fb-42fd-48a2-85a6-2dfbc668ff27}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="JPTBase.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="JPTBase.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="GLSL3DArrowShader.h">
+      <Filter>Render\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="GLSLAxisShader.h">
+      <Filter>Render\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="GLSLFragArrow.h">
+      <Filter>Render\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="GLSLGeoArrow.h">
+      <Filter>Render\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="GLSLNodeGeo.h">
+      <Filter>Render\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="GLSLNodeGeoMesh.h">
+      <Filter>Render\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="GLSLNodeVert.h">
+      <Filter>Render\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="GLSLNodeVertMesh.h">
+      <Filter>Render\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="GLSLShadeFrag.h">
+      <Filter>Render\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="GLSLShadeFragMesh.h">
+      <Filter>Render\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="GLSLTextureShader.h">
+      <Filter>Render\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="GLSLVertArrow.h">
+      <Filter>Render\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="GLSLLigtingShader.h">
+      <Filter>Render\Shader</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\JPTBase.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="JPTBase.def" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="JPTBase.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
